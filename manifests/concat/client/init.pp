@@ -1,5 +1,5 @@
 class common::concat::client::init {
-    include common::concat::client::config
+  include common::concat::client::config
 }
 
-# vim:sw=4:ts=4:expandtab:textwidth=79
+# vim:sw=2:ts=2:expandtab:textwidth=79

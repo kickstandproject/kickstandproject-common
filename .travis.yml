@@ -1,0 +1,18 @@
+language: ruby
+rvm:
+  - 1.8.7
+before_script:
+after_script:
+script:
+  - "rake lint"
+  - "rake spec"
+branches:
+  only:
+    - master
+env:
+  - PUPPET_VERSION=2.7.11
+notifications:
+  irc:
+    channels:
+      - "irc.freenode.org#kickstand-dev"
+gemfile: .gemfile
